@@ -34,7 +34,7 @@ sd(iris$Sepal.Length)
     add remote url of github repository and repository name
 7 save file - folder visible in git pane - click commit - push
 8 we can view the file in github repository
-9 
+9 edit  github repository file - commit changes at github- pull option from R studio commit
 
 min(iris$Petal.Length)
 
