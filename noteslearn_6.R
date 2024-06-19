@@ -21,3 +21,14 @@ mean(iris$Sepal.Width)
 sd(iris$Sepal.Length)
 
 ??quantile
+
+# CREATION OF VERSION CONTROL IN R STUDIO
+
+1 Create R project- 
+    new project - working directory-project type - new project- directory name-project subdirectory-create new folder
+2 create new file - R script -give file name
+3 tools - Version control-project set up - Git/SVN -
+
+2 
+
+
