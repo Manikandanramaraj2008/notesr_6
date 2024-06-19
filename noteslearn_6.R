@@ -1,11 +1,23 @@
 library(tidyverse)
 library(dplyr)
-data(iris)
-summary(iris)
+data(iris)  # loaded the dataset
+summary(iris) # meta data summary of the data
 select(iris,Species,2)
-filter(iris,Species=="virginica")
+
+# filter the required variables
+
+filter(iris,Species=="virginica") 
 find("filter")
-typeof(iris)
+typeof(iris) # findout the data type of variable
 class(iris)
-class(iris$Species)
-typeof(iris$Species)
+class(iris$Species) typeof(iris$Species)
+iris[3:4] # finding the variable names by index
+iris[5]  # retrieving the variable using by index
+
+# Analyse the data
+
+max(iris$Petal.Length)
+mean(iris$Sepal.Width)
+sd(iris$Sepal.Length)
+
+??quantile
