@@ -36,4 +36,7 @@ sd(iris$Sepal.Length)
 8 we can view the file in github repository
 9 
 
+min(iris$Petal.Length)
+
+
 
