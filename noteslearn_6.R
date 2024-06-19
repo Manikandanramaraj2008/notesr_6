@@ -28,7 +28,12 @@ sd(iris$Sepal.Length)
     new project - working directory-project type - new project- directory name-project subdirectory-create new folder
 2 create new file - R script -give file name
 3 tools - Version control-project set up - Git/SVN -
-
-2 
+4 create github repository w/ same file name
+5 load data and packages in script
+6 environment pane git option shown create branch name - main
+    add remote url of github repository and repository name
+7 save file - folder visible in git pane - click commit - push
+8 we can view the file in github repository
+9 
 
 
