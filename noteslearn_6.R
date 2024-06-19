@@ -1,3 +1,6 @@
+## procedures to add version control git hub repository
+## R studio project file
+
 library(tidyverse)
 library(dplyr)
 data(iris)  # loaded the dataset
@@ -31,12 +34,13 @@ sd(iris$Sepal.Length)
 #4 create github repository w/ same file name
 #5 load data and packages in script
 #6 environment pane git option shown create branch name - main
-    add remote url of github repository and repository name
+#@   add remote url of github repository and repository name
 #7 save file - folder visible in git pane - click commit - push
 #8 we can view the file in github repository
 #9 edit  github repository file - commit changes at github- pull option from R studio commit
 
 min(iris$Petal.Length)
-
+median(iris$Petal.Width)
+getwd()
 
 
