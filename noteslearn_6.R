@@ -41,6 +41,7 @@ sd(iris$Sepal.Length)
 
 min(iris$Petal.Length)
 median(iris$Petal.Width)
+# getting working directory setwd() setting up working directory
 getwd()
 
 
