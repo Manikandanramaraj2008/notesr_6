@@ -6,10 +6,8 @@ library(dplyr)
 data(iris)  # loaded the dataset
 summary(iris) # meta data summary of the data
 select(iris,Species,2)
-```{r,my-chunk,fig-height=4,dev='jpeg'}
 
 
-```
 
 
 # filter the required variables
