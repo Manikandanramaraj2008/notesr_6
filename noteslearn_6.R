@@ -16,7 +16,8 @@ filter(iris,Species=="virginica")
 find("filter")
 typeof(iris) # findout the data type of variable
 class(iris)
-class(iris$Species) typeof(iris$Species)
+class(iris$Species) 
+typeof(iris$Species)
 iris[3:4] # finding the variable names by index
 iris[5]  # retrieving the variable using by index
 
